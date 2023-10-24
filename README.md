@@ -14,6 +14,10 @@ Projeto desenvolvido com o principal intuito de gerar retorno financeiro, atrav�
 # Instalação ⚙
 Para executar o projeto siga os passos a seguir
 
+  * Clone o repositório na máquina
+  ```sh
+  git clone https://github.com/LuizaPascuotte/Fatec_Projeto_Integrador_Quarto_Semestre
+  ```
   * Instale uma virtualenv
   ```sh
   pip install virtualenv
@@ -37,6 +41,21 @@ Para executar o projeto siga os passos a seguir
   ```sh
   python manage.py runserver
   ```
+
+# Build do FrontEnd (Para desenvolvimento)
+
+É necessário após modificações no FrontEnd realizar o build do mesmo e upload para a pasta de backend no mesmo diretório do arquivo manage.py.
+
+  * Para realizar o build
+  ```sh
+  yarn build 
+  ```
+  ou 
+
+  ```sh
+  npm run build
+  ```
+  A execução irá gerar um arquivo chamado build adicione-o no pasta do backend
 
 # Estrutura de arquivos
 
